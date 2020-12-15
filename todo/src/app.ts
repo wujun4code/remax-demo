@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './app.css';
-import 'annar/dist/annar.css';
+import "@/colorui/main.wxss";
+import "@/colorui/icon.wxss";
 
 const App: React.FC = props => props.children as React.ReactElement;
 
