@@ -14,7 +14,8 @@
   "dependencies": {
     "annar": "^2.0.7",
     "react": "^16.14.0",
-    "remax": "^2.11.3"
+    "remax": "^2.11.3",
+    "weui-miniprogram": "^1.0.7"
   },
   "devDependencies": {
     "@types/react": "^16.14.2",

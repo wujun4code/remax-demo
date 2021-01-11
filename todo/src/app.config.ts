@@ -1,14 +1,21 @@
 import { AppConfig } from "remax/wechat";
 
 const config: AppConfig = {
-  pages: ["pages/index/index", "pages/about/index"],
+  pages: ["pages/about/index", "pages/index/index"],
   window: {
     navigationBarTitleText: "Remax Tab Demo",
   },
+  usingComponents: {
+    "mp-tabbar": "weui-miniprogram/tabbar/tabbar",
+  },
+  useExtendedLib: {
+    weui: true,
+  },
   tabBar: {
     custom: true,
-    color: "#FFFFFF",
-    selectedColor: "#000000",
+    color: "#868686",
+    selectedColor: "#FF2020",
+    position: "bottom",
     backgroundColor: "#FFFFFF",
     list: [
       {
