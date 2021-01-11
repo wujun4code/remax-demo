@@ -14,11 +14,11 @@
   "dependencies": {
     "annar": "^2.0.7",
     "react": "^16.14.0",
-    "remax": "^2.9.1"
+    "remax": "^2.11.3"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
     "@types/react": "^16.14.2",
+    "cross-env": "^7.0.2",
     "typescript": "^4.1.2"
   }
 }
